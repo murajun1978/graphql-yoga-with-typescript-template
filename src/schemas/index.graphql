@@ -1,13 +1,19 @@
+# Import GraphQL Schema using graphql-import
+# e.g.
+# # import * from "hello.graphql"
+
 scalar Date
 
-type Query {
+# type Query {
   # Your Query here
-}
+  # e.g.
+  # hello(name: String!): Hello
+# }
 
-type Mutation {
-  # Your Mutation here
-}
+# type Mutation {
+#   # Your Mutation here
+# }
 
-type Subscription {
-  # Your Subscription here
-}
+# type Subscription {
+#   # Your Subscription here
+# }
