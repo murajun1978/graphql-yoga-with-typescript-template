@@ -1,0 +1,13 @@
+scalar Date
+
+type Query {
+  # Your Query here
+}
+
+type Mutation {
+  # Your Mutation here
+}
+
+type Subscription {
+  # Your Subscription here
+}
