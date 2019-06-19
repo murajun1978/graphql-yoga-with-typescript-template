@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
+    "test:watch": "npm test -- --watch",
     "generate": "graphqlgen",
     "lint": "eslint --max-warnings 0 --ext .js,.ts ."
   },
@@ -13,6 +14,7 @@
   "license": "ISC",
   "devDependencies": {
     "@types/aws-lambda": "^8.10.27",
+    "@types/jest": "^24.0.15",
     "@types/node": "^12.0.8",
     "@types/ws": "^6.0.1",
     "@typescript-eslint/eslint-plugin": "^1.10.2",
@@ -21,7 +23,9 @@
     "eslint-config-prettier": "^5.0.0",
     "eslint-plugin-prettier": "^3.1.0",
     "graphqlgen": "^0.6.0-rc9",
+    "jest": "^24.8.0",
     "prettier": "^1.18.2",
+    "ts-jest": "^24.0.2",
     "typescript": "^3.5.2"
   },
   "dependencies": {
