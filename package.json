@@ -8,7 +8,7 @@
     "test": "jest",
     "test:watch": "npm test -- --watch",
     "generate": "graphqlgen",
-    "lint": "eslint --max-warnings 0 --ext .js,.ts ."
+    "lint": "eslint --ignore-pattern '!.eslintrc.js' --max-warnings 0 --ext .js,.ts ."
   },
   "keywords": [],
   "author": "",
