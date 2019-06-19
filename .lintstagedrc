@@ -1,0 +1,7 @@
+{
+  "*.{js,ts}": [
+    "npm run lint",
+    "npm test",
+    "git add"
+  ]
+}
